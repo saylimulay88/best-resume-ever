@@ -39,29 +39,29 @@
 
 ## Prerequisite
 
-1. It is required to have NodeJs with version 8.5 or higher
+NodeJs with version 8.5 or higher
 
-2. If you do not have installed node.js in your machine then go to [this link](https://nodejs.org/en/download/) in order to install node.
+If you have installed node.js, click [this link](https://nodejs.org/en/download/) to install NodeJS.
 
-## How to use
+## How to Use
 
-best-resume-ever requires at least node v.8.5.0.
 
 1. Clone this repository.
 ```
 git clone https://github.com/salomonelli/best-resume-ever
 ```
 
-2. Go to the cloned directory (e.g. `cd best-resume-ever`).
+2. Access to the cloned directory (e.g. `cd best-resume-ever`).
 
 3. Run `npm install`.
 
-4. Customize your resume in the `resume/` directory: edit your data `data.yml` and replace your profile-picture `id.jpg`.
+4. Customize your resume in the `resume/` directory: edit your data `data.yml`.
 
-5. Preview resumes with `npm run dev`.
+5. Add a profile-picture `id.jpg`.
 
-6. Export with `npm run export`.
+6. Preview resumes with `npm run dev`.
 
+7. Export with `npm run export`.
 
 All resumes will be exported to the `pdf/` folder.
 
@@ -70,14 +70,14 @@ All resumes will be exported to the `pdf/` folder.
 
 ## Creating and Updating Templates
 
-Please read the <a href="DEVELOPER.md">developer docs</a> on how to create or update templates.
+To create and/or update templates read the <a href="DEVELOPER.md">developer docs</a>.
 
 <br>
 
 
 ## Contribute
 
-Feel free to add your own templates, language supports, fix bugs or improve the docs. Any kind of help is appreciated! If you make any kind of changes to an existing template, please commit them as new templates.
+Feel free to add your own templates and language supports. Also feel  free to fix bugs and suggest enhancement to documentation. Any kind of help is appreciated! If you make any kind of changes to an existing template, please commit them as new templates.
 
 <br>
 
